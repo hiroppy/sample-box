@@ -11,11 +11,15 @@ $ lerna run build # run babel
 
 ## Usage
 ```javascript
-import { web as Button } from '@sample-box/button';
+import Button from '@sample-box/button';
 
 const Root = () => (
   <div>
-    <Button />
+    <Button
+      onClick={() => console.log('yay')}
+    />
   </div>
 );
 ```
+
+React-Native does not have `onClick` but this library internally replaces `onClick` with `onPress`.

@@ -1,0 +1,14 @@
+{
+  "name": "@sample-bux/themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "author": "abouthiroppy <git@about-hiroppy.com> (http://about-hiroppy.com)",
+  "license": "MIT"
+}
